@@ -22,7 +22,7 @@ function App() {
       <SubTotalContainer/>
       <PreferContainer/>
       {/* <BillingContainer/> */}
-      <ShippingContainer/>
+      {/* <ShippingContainer/> */}
       <PaymentInfoContainer/>
       <ProcessOrderYes/>
       <ReasonsContainer/>
