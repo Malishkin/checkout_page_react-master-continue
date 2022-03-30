@@ -1,4 +1,21 @@
+.shippingMethodContainer {
+  /* width: 100%; */
+  display: flex;
+  flex-wrap: nowrap;
+  /* flex-direction: row; */
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.borderShipping {
+  width: 80%;
+  margin-bottom: 50px;
+}
 
+hr {
+  color: #b3b3b3;
+}
 
 .enterInput1 {
   margin-left: 5px;
@@ -11,16 +28,7 @@
   opacity: 1;
 }
 
-.shippingMethodContainer {
-  /* width: 100%; */
-  display: flex;
-  flex-wrap: wrap;
-  
-  justify-content: center;
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 50px;
-}
+
 
 .step-item3 {
   display: flex;
@@ -86,8 +94,14 @@
   opacity: 1;
 }
 
-@media screen and (max-width: 808px) {
-  .shippingMethodContainer {
+@media screen and (max-width: 760px) {
+  /* .shippingMethodContainer {
     display: none;
+  } */
+
+  .select-shipping-text {
+    font-size: 20px;
+    width: 300px;
+    height: 40px;
   }
 }

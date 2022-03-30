@@ -6,8 +6,8 @@ const ShippingContainer = () => {
     <>
        <div className="shippingMethodContainer">
     <div className="step-item3">
-      <div style={{ width: '80%', marginBottom: '50px' }}>
-        <hr style={{ color: '#b3b3b3' }} />
+      <div className='borderShipping' >
+        <hr />
       </div>
       <div className="step-3">Step 3</div>
       <div className="select-shipping-text">Select Shipping Method</div>
