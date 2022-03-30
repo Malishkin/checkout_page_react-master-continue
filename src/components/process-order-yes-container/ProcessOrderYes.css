@@ -29,14 +29,14 @@
   height: 269px;
 }
 
-@media screen and (max-width: 960px) {
+@media only screen and (max-width: 960px) {
   .process-img {
     width: 500px;
     height: 192px;
   }
 }
 
-@media screen and (max-width: 905px) {
+@media only screen and (max-width: 905px) {
   .process-img {
     width: 340px;
     height: 131px;

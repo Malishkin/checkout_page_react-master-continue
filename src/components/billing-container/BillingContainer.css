@@ -205,7 +205,7 @@
 }
 
 
-@media (max-width: 1190px) {
+@media only screen and (max-width: 1190px) {
   .step-billing-item-left {
     width: 100%;
     justify-content: center;
@@ -218,7 +218,7 @@
   }
 }
 
-@media(max-width: 470){
+@media only screen and (max-width: 470){
 
 }
 
@@ -263,7 +263,7 @@
 
 
 
-@media screen and (max-width: 1100px) {
+@media only screen and (max-width: 1100px) {
   .billingContainer {
     display:flex;
     flex-direction: column;

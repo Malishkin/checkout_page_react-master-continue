@@ -56,13 +56,13 @@
   display: none;
 }
 
-@media screen and (max-width: 1155px) {
+@media only screen and (max-width: 1155px) {
   .certified {
     margin-left: 125px;
   }
 }
 
-@media screen and (max-width: 905px) {
+@media only screen and (max-width: 905px) {
   .nav {
     height: 47px;
   }

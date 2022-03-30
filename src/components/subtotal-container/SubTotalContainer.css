@@ -182,7 +182,7 @@
   opacity: 1;
 }
 
-@media screen and (max-width: 945px) {
+@media only screen and (max-width: 945px) {
   .subtotal {
     display: none;
   }

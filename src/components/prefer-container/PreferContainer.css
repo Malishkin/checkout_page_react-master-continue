@@ -262,7 +262,7 @@
   opacity: 1;
 }
 
-@media screen and (max-width: 960px) {
+@media only screen and (max-width: 960px) {
   .prefer-container {
     display: none;
   }
