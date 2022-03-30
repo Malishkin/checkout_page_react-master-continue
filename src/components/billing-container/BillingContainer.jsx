@@ -7,7 +7,7 @@ const BillingContainer = () => {
       <div className='billingContainer'>
         <div className='step-billing-item-left'>
           <div className='border-div'>
-            <div className='step-3'>Step 1</div>
+            <div className='step3_1'>Step 1</div>
             <div className='select-billing-text'>Enter Billing Info</div>
             <div className='border-left'>
               <div className='fields'>
@@ -75,7 +75,7 @@ const BillingContainer = () => {
         </div>
         <div className='step-billing-item-right'>
           <div className='border-div'>
-            <div className='step-3'>Step 2</div>
+            <div className='step3_1'>Step 2</div>
             <div className='select-billing-text'>Enter Shipping Info</div>
             <div className='round1'>
               <input type='checkbox' defaultChecked id='checkbox1' />

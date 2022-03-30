@@ -7,8 +7,8 @@ import seCure from '../../img/6.png';
 const FooterComp = () => {
   return (
     <>
-      <footer>
-    <div className="footer-container">
+     
+    <div className="footerContainer">
       <div className="footer-item"><img src={riskFree} className="footer-img" alt=""/>
         <div className="footer-title">100% Risk Free</div>
         <div className="footer-text">If you’re not thrilled with how fantastic you look and feel after tapping into your
@@ -28,7 +28,7 @@ const FooterComp = () => {
       </div>
     </div>
     
-  </footer>
+  
     </>
   );
 };

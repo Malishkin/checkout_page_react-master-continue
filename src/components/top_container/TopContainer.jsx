@@ -7,7 +7,7 @@ import sTripe from '../../img/stripe.png';
 const TopContainer = () => {
   return (
     <>
-      <div className='top-container'>
+      <div className='topContainer'>
         <div className='top-item'>
           <img src={sHopify} className='shopify' alt='' />
         </div>

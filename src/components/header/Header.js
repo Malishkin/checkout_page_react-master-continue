@@ -4,7 +4,7 @@ import './Header.css';
 const Header = () => {
   return (
     <>
-      <header>
+      <div className='header'>
         <div className='textContainer'>
           <div className='textSmall'>
             <i className='fa fa-check col' aria-hidden='true'></i> 100% Guarantee
@@ -21,7 +21,7 @@ const Header = () => {
           </div>
           <div className='textSmall2'>Questions? 1-888-286-7307</div>
         </div>
-      </header>
+      </div>
     </>
   );
 };
