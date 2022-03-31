@@ -14,16 +14,16 @@ import BillingContainer from './components/billing-container/BillingContainer';
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <Navbar/>
       <Header />
       <TopContainer />
       <WhatContainer />
       <SubTotalContainer/>
       <PreferContainer/>
-      <BillingContainer/>
-      <ShippingContainer/>
-      <PaymentInfoContainer/>
+      {/* <BillingContainer/> */}
+      {/* <ShippingContainer/> */}
+      {/* <PaymentInfoContainer/> */}
       <ProcessOrderYes/>
       <ReasonsContainer/>
       <FooterComp/>

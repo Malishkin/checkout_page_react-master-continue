@@ -1,9 +1,7 @@
-
-
 .topContainer {
   margin-top: 5vh;
   display: flex;
-  
+
   flex-flow: row nowrap;
   gap: 5px;
   justify-content: center;
@@ -35,7 +33,7 @@
   height: 60px;
 }
 
-@media only screen and (max-width: 394px) {
+@media screen and (max-width: 394px) {
   .shopify {
     top: 98px;
     left: 12px;

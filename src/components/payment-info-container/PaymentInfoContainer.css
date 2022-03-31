@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 .paymentInfoContainer {
   /* width: 100%; */
   display: flex;
@@ -231,7 +223,7 @@
   opacity: 1;
 }
 
-@media only screen and (max-width: 960px) {
+@media screen and (max-width: 960px) {
   .paymentInfoContainer {
     display: none;
   }

@@ -18,6 +18,7 @@
   justify-content: center;
 }
 h1 {
+  margin-bottom: 50px;
   font-family: 'Poppins', sans-serif;
   font-size: 50px;
   font-weight: 700;
@@ -31,7 +32,7 @@ h1 {
   opacity: 1;
 }
 
-@media only screen and (max-width: 905px) {
+@media screen and (max-width: 905px) {
   h1 {
     margin-top: 20px;
     left: 58px;
@@ -45,6 +46,7 @@ h1 {
 @media screen and (max-width: 394px) {
   h1 {
     margin-top: 30px;
+    margin-bottom: 50px;
     left: 58px;
     width: 320px;
     height: 50px;
@@ -52,6 +54,3 @@ h1 {
     line-height: 1.2;
   }
 }
-
-
-

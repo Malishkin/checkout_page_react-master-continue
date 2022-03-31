@@ -21,15 +21,15 @@
 }
 
 .bottle {
-  top: 275px;
-  left: 292px;
   width: 451px;
   height: 351px;
+  margin-bottom: 30px;
 }
 
 .subtotal {
   margin-top: 50px;
-  left: 689px;
+  /* left: 689px; */
+  margin-bottom: 30px;
   width: 458px;
   height: 238px;
   border: 1px solid #b3b3b3;
@@ -182,14 +182,15 @@
   opacity: 1;
 }
 
-@media only screen and (max-width: 945px) {
+@media screen and (max-width: 945px) {
   .subtotal {
     display: none;
   }
   .bottle {
-    margin-top: 50px;
-    top: 230px;
-    left: 43px;
+    /* margin-top: 50px; */
+
+    margin-bottom: 30px;
+
     width: 260px;
     height: 200px;
   }

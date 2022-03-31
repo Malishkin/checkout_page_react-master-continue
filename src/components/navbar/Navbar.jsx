@@ -5,7 +5,7 @@ import navLogo from '../../img/1.png';
 const Navbar = () => {
   return (
     <>
-      <div className='nav'>
+      <div className='navBar'>
         <div className='certified'>
           <img src={navLogo} className='emblem2' alt='' /> CERTIFIED 100% SAFE &
           SECURE CHECKOUT
