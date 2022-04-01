@@ -8,11 +8,12 @@
 
 
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1190px) {
     .shippingSmallContainer {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-bottom: 80px;
     }
 
     .borderShipping-small {

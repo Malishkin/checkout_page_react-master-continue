@@ -16,7 +16,7 @@ const BillingSmall1 = () => {
         <div className='firstName3-small1'>
             {' '}
          
-          <span className='enterText1-small1'>Country</span>
+          <span className='enterText1-small1'>State/Province</span>
           
             <select
               className='enterInput1-small1'
@@ -37,7 +37,7 @@ const BillingSmall1 = () => {
           <div className='firstName3-small1'>
             {' '}
            
-          <span className='enterText1-small1'>State/Province</span>
+          <span className='enterText1-small1'>Country</span>
           
             <select
               className='enterInput1-small1'

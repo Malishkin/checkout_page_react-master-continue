@@ -13,6 +13,7 @@ import ShippingContainer from './components/shipping-container/ShippingContainer
 import BillingContainer from './components/billing-container/BillingContainer';
 import ShippingSmall from './components/subtotal-container/shipping-small/ShippingSmall';
 import BillingSmall1 from './components/billing-small-1/BillingSmall1';
+import BillingSmall2 from './components/billing-small-2/BillingSmall2';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <WhatContainer />
       <SubTotalContainer />
       <BillingSmall1 />
+      <BillingSmall2/>
       <ShippingSmall />
       <PreferContainer />
       <BillingContainer />
