@@ -12,23 +12,26 @@ import PaymentInfoContainer from './components/payment-info-container/PaymentInf
 import ShippingContainer from './components/shipping-container/ShippingContainer';
 import BillingContainer from './components/billing-container/BillingContainer';
 import ShippingSmall from './components/subtotal-container/shipping-small/ShippingSmall';
+import BillingSmall1 from './components/billing-small-1/BillingSmall1';
 
 function App() {
   return (
     <div className='App'>
-      <Navbar/>
+      <Navbar />
       <Header />
       <TopContainer />
       <WhatContainer />
-      <SubTotalContainer/>
-      <PreferContainer/>
-      <BillingContainer/>
-      <ShippingContainer/>
-      <ShippingSmall/>
-      <PaymentInfoContainer/>
-      <ProcessOrderYes/>
-      <ReasonsContainer/>
-      <FooterComp/>
+      <SubTotalContainer />
+      <BillingSmall1 />
+      <ShippingSmall />
+      <PreferContainer />
+      <BillingContainer />
+      <ShippingContainer />
+
+      <PaymentInfoContainer />
+      <ProcessOrderYes />
+      <ReasonsContainer />
+      <FooterComp />
     </div>
   );
 }
