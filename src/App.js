@@ -15,6 +15,7 @@ import ShippingSmall from './components/shipping-small/ShippingSmall';
 import BillingSmall1 from './components/billing-small-1/BillingSmall1';
 import BillingSmall2 from './components/billing-small-2/BillingSmall2';
 import SubtotalSmall from './components/subtotal-small-step/SubtotalSmall';
+import PaymentSmall from './components/payment-small/PaymentSmall';
 
 function App() {
   return (
@@ -27,11 +28,11 @@ function App() {
       <BillingSmall1 />
       <BillingSmall2/>
       <ShippingSmall />
+      <PaymentSmall/>
       <PreferContainer />
       <SubtotalSmall/>
       <BillingContainer />
       <ShippingContainer />
-
       <PaymentInfoContainer />
       <ProcessOrderYes />
       <ReasonsContainer />
