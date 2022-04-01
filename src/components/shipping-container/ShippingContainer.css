@@ -1,10 +1,9 @@
 .shippingMethodContainer {
-  /* width: 100%; */
   display: flex;
   flex-wrap: nowrap;
-  /* flex-direction: row; */
   justify-content: center;
-  text-align: center;
+  align-items: center;
+  /* text-align: center; */
   margin-top: 100px;
   margin-bottom: 50px;
 }
@@ -28,15 +27,17 @@ hr {
   opacity: 1;
 }
 
+
 .step-item3 {
+  width: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  flex-grow: 1;
+  /* flex-grow: 1; */
   text-align: center;
   align-items: center;
   justify-content: center;
-  width: 500px;
+  
 }
 .select-comobox {
   margin-top: 5px;
@@ -65,7 +66,7 @@ hr {
   font-weight: 700;
   font-size: 30px;
   width: 400px;
-  height: 55px;
+  height: 50px;
 }
 
 .enterText1 {
@@ -93,13 +94,23 @@ hr {
 }
 
 @media screen and (max-width: 760px) {
-  /* .shippingMethodContainer {
+  .shippingMethodContainer {
     display: none;
-  } */
+  }
 
-  .select-shipping-text {
+
+  /* .select-shipping-text {
     font-size: 20px;
     width: 300px;
     height: 40px;
   }
+
+  .select-comobox {
+    margin-top: 5px;
+   
+    height: 28px;
+   
+    
+  } */
+  
 }

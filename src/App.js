@@ -11,6 +11,7 @@ import ReasonsContainer from './components/reasons-container/ReasonsContainer';
 import PaymentInfoContainer from './components/payment-info-container/PaymentInfoContainer';
 import ShippingContainer from './components/shipping-container/ShippingContainer';
 import BillingContainer from './components/billing-container/BillingContainer';
+import ShippingSmall from './components/subtotal-container/shipping-small/ShippingSmall';
 
 function App() {
   return (
@@ -21,9 +22,10 @@ function App() {
       <WhatContainer />
       <SubTotalContainer/>
       <PreferContainer/>
-      {/* <BillingContainer/> */}
-      {/* <ShippingContainer/> */}
-      {/* <PaymentInfoContainer/> */}
+      <BillingContainer/>
+      <ShippingContainer/>
+      <ShippingSmall/>
+      <PaymentInfoContainer/>
       <ProcessOrderYes/>
       <ReasonsContainer/>
       <FooterComp/>
