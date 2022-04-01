@@ -22,14 +22,14 @@ const PaymentSmall = () => {
         <div className='subtotalSmallPayment'>
           <div className='payPalSmall'>
             <div className='round3Small'>
-              <input type='radio' name='credit' />
+              <input type='radio' name='creditSmall' />
             </div>
             <div className='payWithSmall'>Pay With </div>
             <img src={paYpal} className='payPal-img' alt='' />
           </div>
           <div className='creditCardSmall'>
             <div className='round4Small'>
-              <input type='radio' defaultChecked name='credit' />
+              <input type='radio'  name='creditSmall' defaultChecked />
             </div>
             <div className='payWithSmall'>Pay With Credit Card</div>
           </div>
